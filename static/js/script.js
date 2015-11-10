@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     /* header image */
     $('.header-slide').backstretch([
-      "slide/bg01.jpg",
+      "static/slide/bg01.jpg",
       
       ], {
        
