@@ -121,25 +121,18 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="heading-title heading-title-alt">
-                  <h3>xxxxxx</h3>
+                  <h3>RENTAL RESERVATION FORM</h3>
                 </div>
               </div>
             </div>
             <!-- begin:sorting -->
             <div class="row sort">
-<!--
-              <form role="form">
-                  <div class="col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="bedroom">Pick-up date & time</label>
-                      <input type="text" class="form-control " placeholder="-">
-                    </div>
-                  </div> -->
 
-            <!-- break -->
-            <div class="col-md-3 col-sm-3 col-xs-6">
+
+             <!--Pick-up Date-->
+            <div class="col-md-6">
                 <div class="form-group">
-                  <h4>Pick-up Date</h4>
+                  <h5>Pick-up Date</h5>
 
                   <div class="col-xs-3">
                     <input class="form-control" id="ex1" type="text">
@@ -161,10 +154,10 @@
               </div>
              </div>
 
-
- <div class="col-md-3 col-sm-3 col-xs-6">
+            <!--Pick-off Date-->
+            <div class="col-md-6">
                 <div class="form-group">
-                  <h4>Pick-off Date</h4>
+                  <h5>Pick-off Date</h5>
 
                   <div class="col-xs-3">
                     <input class="form-control" id="ex1" type="text">
@@ -186,62 +179,121 @@
               </div>
              </div>
 
+              <!-- Pick up time -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <h5>Pick up time</h5>
+                 
+            <div class='col-xs-3'>
+                <div class='input-group date' id='datetimepicker3'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+               </div>
+              </div>
+             </div>
 
-                  <!-- break 
-                  <div class="col-md-3 col-sm-3 col-xs-6">
-                    <div class="form-group">
-                      <label for="status">Hours</label>
-                      <select class="form-control">
-                        <option>-</option>
-                        <option>-</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="bathroom">Hours</label>
-                      <select class="form-control">
-                        <option>-</option>
-                        <option>-</option>
-                        <option>-</option>
-                        <option>-</option>
-                      </select>
-                    </div>
-                  </div> -->
-                  <!-- break -->
-                  <div class="col-md-3 col-sm-3 col-xs-6">
-                   <!-- <div class="form-group">
-                      <label for="type">Type</label>
-                      <select class="form-control">
-                        <option>Villa</option>
-                        <option>Recident</option>
-                        <option>Commercial</option>
-                      </select>
-                    </div> -->
-                   <!-- <div class="form-group">
-                      <label for="minprice">Min Price</label>
-                      <select class="form-control">
-                        <option>$4,200</option>
-                        <option>$6,700</option>
-                        <option>$8,150</option>
-                        <option>$11,110</option>
-                      </select>
-                    </div> -->
-                  </div>
-                  <!-- break 
-                  <div class="col-md-6 col-sm-6 col-xs-6">
-                    <div class="form-group">
-                      <label for="maxprice">Pick-up Location</label>
-                      <select class="form-control">
-                        <option>-</option>
-                        <option>-</option>
-                        <option>-</option>
-                        <option>-</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="maxprice">&nbsp;</label>
-                      <input type="submit" name="submit" value="Search" class="btn btn-danger btn-block">
-                    </div>
-                  </div> -->
+            <!-- Drop off time -->
+            <div class="col-md-6">
+                <div class="form-group">
+                  <h5>Drop off time</h5>
+                 
+            <div class='col-xs-3'>
+                <div class='input-group date' id='datetimepicker3'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+               </div>
+              </div>
+             </div>
+
+              <!-- Pick up place -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <h5>Pick up time</h5>
+                 
+            <div class='col-xs-6'>
+                <div class='input-group date radio' id='datetimepicker3'>
+
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                          SJO airport (Juan Santamaria)
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Liberia airport
+                        </label>
+                      </div>
+                      <div class="radio disabled">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                          other:
+                        </label>
+                </div>
+               </div>
+              </div>
+             </div>
+
+            <!-- Drop off place -->
+            <div class="col-md-6">
+                <div class="form-group">
+                  <h5>Drop off time</h5>
+                 
+            <div class='col-xs-6'>
+                <div class='input-group date radio' id='datetimepicker3'>
+
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                          SJO airport (Juan Santamaria)
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Liberia airport
+                        </label>
+                      </div>
+                      <div class="radio disabled">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                          other:
+                        </label>
+
+                </div>
+               </div>
+              </div>
+             </div>
+
+  <!--   
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" class="form-control-file" id="exampleInputFile">
+    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  </fieldset>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+      SJO airport (Juan Santamaria)
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      Liberia airport
+    </label>
+  </div>
+  <div class="radio disabled">
+    <label>
+      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+      other:
+    </label>
+  </div> -->
+
 
                 </form>
               </div>
@@ -254,168 +306,9 @@
           </div>
         </div>
       </div>
-              <!--<div class="col-md-4 col-sm-4 col-xs-3">
-                <a href="search.html" class="btn btn-danger"><i class="fa fa-th"></i></a>
-                <a href="search_list.html" class="btn btn-default"><i class="fa fa-list"></i></a>
-                <span>Show <strong>6</strong> of <strong>30</strong> result.</span>
-              </div> -->
-              <!--<div class="col-md-12 col-sm-12 col-xs-12>
-                <form class="form-inline" role="form">
-                  <span>Sort by : </span>
-                  <div class="form-group">
-                    <label class="sr-only" for="sortby">Sort by : </label>
-                    <select class="form-control">
-                      <option>Most Recent</option>
-                      <option>Price (Low &gt; High)</option>
-                      <option>Price (High &gt; Low)</option>
-                      <option>Most Popular (Low &gt; High)</option>
-                    </select>
-                  </div>
-                  <span>Show : </span>
-                  <div class="form-group">
-                    <label class="sr-only" for="show">Show : </label>
-                    <select class="form-control">
-                      <option>6</option>
-                      <option>10</option>
-                      <option>15</option>
-                      <option>20</option>
-                      <option>25</option>
-                      <option>50</option>
-                      <option>100</option>
-                    </select>
-                  </div>
-                </form>
-              </div>
-            </div> -->
-            <!-- end:sorting -->
+            <!-- END FORM-->
 
-           
 
-    <!-- begin:news
-    <div id="news">
-      <div class="container">
-        <div class="row"> -->
-          <!-- begin:popular 
-          <div class="col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading-title heading-title-sm bg-white">
-                  <h2>Our Best Car Rental Offers</h2>
-                </div>
-              </div>
-            </div> -->
-            <!-- break 
-
-              <div class="col-md-3">
-                <div class="post-container">
-                  <div class="post-img" style="background: url(static/img/img12.jpg);"></div>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <span><i></i>All included starting from $16 per day</span> 
-                    </div>
-                    <div class="heading-title">
-                      <h2><a href="#">rent a car GRAB this deal and SAVE</a></h2>
-
-                    </div>
-                  </div>
-                </div>   
-              </div> -->
-           
-                <!-- break 
-            
-              <div class="col-md-3">
-                <div class="post-container">
-                  <div class="post-img" style="background: url(static/img/img13.jpg);"></div>
-                 <div class="post-content">
-                    <div class="post-meta">
-                      <span><i></i>rent a car SAVE with Pay Now</span> 
-                    </div>
-                    <div class="heading-title">
-                      <h2><a href="#"> %15</a></h2>
-                      <br>
-
-                    </div>
-                  </div>
-                </div>   
-              </div> -->
-    
-                <!-- break 
-
-              <div class="col-md-3">
-                <div class="post-container ">
-                  <div class="post-img" style="background: url(static/img/img14.jpg);"></div>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <span><i></i>Family discount</span> 
-                    </div>
-                    <br>
-                    <div class="heading-title">
-                      <h2><a href="#"> %10 </a></h2>
-                      <br>
-
-                    </div>
-                  </div>
-                </div>   
-              </div> -->
-
-                <!-- break 
-
-              <div class="col-md-3">
-                <div class="post-container">
-                  <div class="post-img" style="background: url(static/img/img15.jpg);"></div>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <span><i></i>rent a car Surfboard storage $50 per year</span> 
-                    </div>
-                    <div class="heading-title">
-                      <h2><a href="#">Surfboard storage</a></h2>
-                      <br>
-                    </div>
-                  </div>
-                </div>   
-              </div> -->
-              
-                <!-- break 
-
-              </div>
-            </div> -->
-            <!-- break 
-
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- end:news -->
-
-    <!-- begin:partner 
-    <div id="partner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="heading-title bg-white">
-              <h2>Our Partnership</h2>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- break 
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="jcarousel-wrapper">
-              <div class="jcarousel">
-                <ul>
-                  <li><a href="#"><img src="static/img/img01.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                  <li><a href="#"><img src="static/img/img02.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                  <li><a href="#"><img src="static/img/img03.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                  <li><a href="#"><img src="static/img/img04.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                  <li><a href="#"><img src="static/img/img05.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                  <li><a href="#"><img src="static/img/img06.jpg" alt="partner of arillo responsive real estate theme"></a></li>
-                </ul>
-              </div>
-              <a href="#" class="jcarousel-control-prev"><i class="fa fa-angle-left"></i></a>
-              <a href="#" class="jcarousel-control-next"><i class="fa fa-angle-right"></i></a> -->
-              <!-- <p class="jcarousel-pagination"></p> -->
             </div>
           </div>
         </div>
@@ -574,6 +467,14 @@
     <script type="text/javascript">
             $(function () {
                 $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker3').datetimepicker({
+                    format: 'LT'
+                });
             });
         </script>
 
