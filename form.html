@@ -793,13 +793,25 @@
                   
                  
             <div class="col-xs-6">
-                    <label for="exampleInputName2"><a>First</a></label>
-                    <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+                    <label for="exampleInputName2"><a>Phone number</a></label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
                   </div>
-                  <div class="col-xs-6">
-                    <label for="exampleInputName2">Last</label>
-                    <input type="text" class="form-control" id="exampleInputName2" placeholder="">
-                  </div>
+              </div>
+             </div>
+
+            <!-- Drop off time -->
+            <div class="col-md-6">
+                <div class="form-group">
+                  <h5><a>Drop off time</a></h5>
+                 
+            <div class='col-xs-3'>
+                <div class='input-group date' id='datetimepicker3'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+               </div>
               </div>
              </div>
 
@@ -810,12 +822,28 @@
               <!-- Pick up place -->
               <div class="col-md-6">
                 <div class="form-group">
-                  
-              <div class="col-xs-6">
-                    <label for="exampleInputName2"><a>Email</a></label>
-                    <input type="text" class="form-control" id="exampleInputName2" placeholder="">
-                  </div>
-            
+                  <h5><a>Pick up time</a></h5>
+                 
+            <div class='col-xs-6'>
+                <div class='input-group date radio' id='datetimepicker3'>
+
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                          SJO airport (Juan Santamaria)
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Liberia airport
+                        </label>
+                      </div>
+                      <div class="radio disabled">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                          other:
+                        </label>
+                </div>
+               </div>
               </div>
              </div>
 
