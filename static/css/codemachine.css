@@ -1,3 +1,5 @@
-hr.style1 {
- border-top: 1px solid #ddd;
+.codemachine-btn {
+ color: #fff;
+background-color: #f20000;
+border-color: #ccc; 
 }
